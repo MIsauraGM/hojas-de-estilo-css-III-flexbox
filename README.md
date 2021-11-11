@@ -14,5 +14,5 @@
     * Línea con iconos de redes sociales.
     * Línea con @Copyright.
 
-NOTA: Crea una carpeta llamada EJ2 y dentro de esta las carpetas css e img para albergar los recursos asociados al fichero index.html que deberás crear también. Se adjunta el wireframe ej2-flexbox.png.
+NOTA: Crea una carpeta llamada EJ2 y dentro de esta las carpetas css e img para albergar los recursos asociados al fichero index.html que deberás crear también. Se adjunta el wireframe ej2-flexbox.png con una idea visual aproximada de lo que se quiere crear.
 
