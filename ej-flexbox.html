@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html {
+      background-color: #FD624A;
+    }
+
+    #container {
+      display: flex;
+      height: 800px;
+      border: 2px solid white;
+      /* flex-direction */
+      /* flex-wrap */
+      /* flew-flow */
+      /* justify-content */
+      /* align-items */
+      /* align-content */
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-content: stretch;
+    }
+
+    .element {
+      background-color: #059BC6;
+      width: 100px;
+      height: 150px;
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .element:nth-child(1) {
+      flex-basis: 200px;
+      width: 150px;
+      /* order */
+      /* flex-grow */
+      /* flex-shrink */
+      flex-grow: 0;
+      flex-shrink: 1;
+    }
+
+    .element:nth-child(2) {
+      height: 200px;
+      flex-grow: 2;
+    }
+
+    .element:nth-child(3) {
+      height: 200px;
+      flex-grow: 3;
+    }
+
+    span {
+      color: white;
+      font-size: 4em;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div class="element"><span>1</span></div>
+    <div class="element"><span>2</span></div>
+    <div class="element"><span>3</span></div>
+    <div class="element"><span>4</span></div>
+    <div class="element"><span>5</span></div>
+    <div class="element"><span>6</span></div>
+    <div class="element"><span>7</span></div>
+    <div class="element"><span>8</span></div>
+    <div class="element"><span>9</span></div>
+    <div class="element"><span>10</span></div>
+  </div>
+</body>
+</html>
